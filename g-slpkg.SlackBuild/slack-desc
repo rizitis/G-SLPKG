@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
        |-----handy-ruler------------------------------------------------------|
-G-SLPKG: G-SLPKG (a gui interface for slpkg package manager)
-G-SLPKG:
-G-SLPKG: G-SLPKG in a tkinter gui interface for slpkg.
-G-SLPKG: slpkg is a Slackware based package manager.
-G-SLPKG: You can build packages from SlackBuilds.org or you can install
-G-SLPKG: precompiled packages from several repos.
-G-SLPKG: Also you can maintain your system updates-upgrades.
-G-SLPKG:
-G-SLPKG: G-SLPKG home page
-G-SLPKG: https://github.com/rizitis/G-SLPKG
-G-SLPKG:
+g-slpkg: g-slpkg (a gui interface for slpkg package manager)
+g-slpkg:
+g-slpkg: G-SLPKG in a tkinter gui interface for slpkg.
+g-slpkg: slpkg is a Slackware based package manager.
+g-slpkg: You can build packages from SlackBuilds.org or you can install
+g-slpkg: precompiled packages from several repos.
+g-slpkg: Also you can maintain your system updates-upgrades.
+g-slpkg:
+g-slpkg: G-SLPKG home page
+g-slpkg: https://github.com/rizitis/G-SLPKG
+g-slpkg:

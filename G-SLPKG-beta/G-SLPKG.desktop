@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=G-SLPKG
-Exec=python3 /usr/local/bin/G-SLPKG
-Icon=/usr/share/G-SLPKG/icons/G-SLPKG.png
-Type=Application
-Categories=Utility;
-Terminal=false

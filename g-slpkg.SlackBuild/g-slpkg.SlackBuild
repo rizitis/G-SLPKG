@@ -24,8 +24,8 @@
 
 cd $(dirname $0) ; CWD=$(pwd)
 
-PRGNAM=G-SLPKG			
-VERSION=${VERSION:-beta}	
+PRGNAM=g-slpkg			
+VERSION=${VERSION:-0.10}	
 BUILD=${BUILD:-2}
 TAG=${TAG:-_rtz}		
 PKGTYPE=${PKGTYPE:-txz}
@@ -80,16 +80,18 @@ find -L . \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
 mkdir -p $PKG/usr/local/bin
-install -m 755 G-SLPKG $PKG/usr/local/bin/
-mkdir -p $PKG/usr/share/applications/G-SLPKG
-install -m 755 G-SLPKG.desktop $PKG/usr/share/applications/G-SLPKG/
-mkdir -p $PKG/usr/share/G-SLPKG/icons
-cp G-SLPKG.png $PKG/usr/share/G-SLPKG/icons/
-cp updated.png $PKG/usr/share/G-SLPKG/
-cp upgrade.png $PKG/usr/share/G-SLPKG/
-cp install.png $PKG/usr/share/G-SLPKG/
-cp reinstall.png $PKG/usr/share/G-SLPKG/
-cp search.png $PKG/usr/share/G-SLPKG/
+install -m 755 g-slpkg.py $PKG/usr/local/bin/
+mkdir -p $PKG/usr/share/applications/g-slpkg
+install -m 755 g-slpkg.desktop $PKG/usr/share/applications/g-slpkg/
+mkdir -p $PKG/usr/share/g-slpkg/icons
+cp G-SLPKG.png $PKG/usr/share/g-slpkg/icons/
+cp updated.png $PKG/usr/share/g-slpkg/
+cp upgrade.png $PKG/usr/share/g-slpkg/
+cp install.png $PKG/usr/share/g-slpkg/
+cp reinstall.png $PKG/usr/share/g-slpkg/
+cp search.png $PKG/usr/share/g-slpkg/
+cp hacker_128.png $PKG/usr/share/g-slpkg/
+cp slackware_logo_med.png $PKG/usr/share/g-slpkg/
 
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
