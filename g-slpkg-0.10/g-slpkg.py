@@ -228,7 +228,7 @@ def create_menus(menu_bar):
 modern_button_style = ttk.Style()
 modern_button_style.configure("Modern.TButton", background="#333333", foreground="#f5f5f5", font=("Roboto", 10))
 modern_button_style.map("Modern.TButton", background=[("active", "#555555")])
-#style.configure("Modern.TButton", background="#007ACC", foreground="white", font=("Helvetica", 12))  
+  
   
 # Create the main content area
 content_frame = tk.Frame(root, bg="#333333")
@@ -259,7 +259,7 @@ repo_entry.config(width=60)  # Adjust width as needed
 logo_image = tk.PhotoImage(file="/usr/share/g-slpkg/slackware_logo_med.png")
 
 # Load the icon image
-icon_image = tk.PhotoImage(file="/usr/share/g-slpkg/hacker_128.png")  # Replace with the actual path to your icon image
+icon_image = tk.PhotoImage(file="/usr/share/g-slpkg/hacker_128.png")  
 
 # Create a label for the logo and icon
 logo_icon_frame = tk.Frame(input_frame, background="#333333")
@@ -271,7 +271,7 @@ logo_label.pack(side="left")  # Display logo on the left side
 
 # Create a label for the icon
 icon_label = tk.Label(logo_icon_frame, image=icon_image, background="#333333")
-icon_label.pack(side="right")  # Display icon on the right side
+icon_label.pack(side="right")  # Display icon on the right side, not exactly but...i tried
 
 # Set the icon and logo images
 logo_label.image = logo_image  # Keep references to the images to prevent them from being garbage collected
