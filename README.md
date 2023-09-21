@@ -5,8 +5,7 @@ GUI interface for slpkg (slackware package manager)
 
 
 ## Install
-To build from source download or clone repo, cd to SlackBuild folder
-and 
+To build from source download or clone repo, unzip and cd to SlackBuild folder, then: 
 ``` 
 chmod +x g-slpkg.SLackBuild
 ./g-slpkg.SlackBuild
